@@ -7,8 +7,8 @@ pipeline {
         stage('Git Checkout') {
             steps {
                 git branch: 'main',
-                credentialsId: '030cb730-fcad-45a8-bd23-4e21aab05ad2',
-                url: 'https://github.com/shashisingh1998/new.git'
+                credentialsId: 'be4829e4-a78c-4a67-a3d0-56e8c1f2c3f4',
+                url: 'https://github.com/thesatyammishra/devops_assignment.git'
                 }
         }
         stage ('Clean') {
